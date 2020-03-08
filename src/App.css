@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App img{
+  width: 90%;
+}
+
+.fixed-toph {
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+
+}
+.containerheadern{
+  width: 100%; 
+margin-right: auto; 
+margin-left: auto;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html{ 
+  font-family: 'Oxanium', cursive; 
+}
+
+h1 {
+  color: white;  
+  font-family: 'Oxanium', sans-serif;
+  font-size: 1.1rem !important;  
+  vertical-align: middle;
+  
+}
+
+.App {
+  font-family: 'Oxanium', sans-serif;
+}
+
+.header{
+  background-color: black;
+}
+
+.fab{
+  margin-left: 10px;
+  color: white;
+}
+
+
+footer {
+  background-color: #000;
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  color:#fff; 
+}
+
+.navbar-dark{
+  background-color: #0B3D91 !important ; 
+}
