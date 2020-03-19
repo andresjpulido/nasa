@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-headert {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -32,8 +32,7 @@
   width: 90%;
 }
 
-.fixed-toph {
-
+.fixed-tophh {
   position: fixed;
   top: 0;
   right: 0;
@@ -43,8 +42,8 @@
 }
 .containerheadern{
   width: 100%; 
-margin-right: auto; 
-margin-left: auto;
+  margin-right: auto; 
+  margin-left: auto;
 }
 
 @keyframes App-logo-spin {
@@ -62,14 +61,23 @@ html{
 
 h1 {
   color: white;  
-  font-family: 'Oxanium', sans-serif;
-  font-size: 1.1rem !important;  
+  font-family: helvetica, 'Oxanium', sans-serif;
+  font-size: 1.3rem !important; 
+  font-weight: bold !important; 
   vertical-align: middle;
-  
+  text-align: left;  
+}
+
+h2 {
+  font-size: 1.6rem !important; 
+  font-weight: bold !important;
+  margin-bottom: 1rem !important;
+  vertical-align: middle;
+
 }
 
 .App {
-  font-family: 'Oxanium', sans-serif;
+  font-family: helvetica, 'Oxanium', sans-serif;
 }
 
 .header{
@@ -79,10 +87,10 @@ h1 {
 .fab{
   margin-left: 10px;
   color: white;
+  
 }
 
-
-footer {
+_footer {
   background-color: #000;
   position:fixed;
   bottom: 0;
@@ -90,6 +98,15 @@ footer {
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
   color:#fff; 
+}
+
+
+footer {
+  background-color: #000;
+  color:rgb(172, 165, 165); 
+  font-size: 0.9rem !important;
+  padding-top: 20px;
+  width: 100%;
 }
 
 .navbar-dark{

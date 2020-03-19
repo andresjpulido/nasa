@@ -3,14 +3,46 @@ import React, { Component } from 'react';
 class Footer extends Component {
   render() {
     return (
-      <div>
-        <br /><br /><br /><br />
-        <footer className="footer">
-          <div className="text-center">© 2020 Developed by
-            <a href="http://www.andresjpulido.com/"> AP</a>
+
+      <footer >
+        <div class="row">
+           <div class="col-6 col-md">
+            <h5>code.nasa.gov</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="https://code.nasa.gov">Home</a></li>
+              <li><a class="text-muted" href="https://code.nasa.gov/#/guide">Guide</a></li>
+              <li><a class="text-muted" href="https://code.nasa.gov/#/related">Related</a></li>
+              <li><a class="text-muted" href="https://code.nasa.gov/#/experiments">Experiments</a></li>               
+            </ul>
           </div>
-        </footer>
-      </div>
+          <div class="col-6 col-md">
+            <h5>data.nasa.gov</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="https://nasa.github.io/data-nasa-gov-frontpage/">Home</a></li> 
+              <li><a class="text-muted" href="https://data.nasa.gov/stories/s/gk8h-th3y">Developers</a></li> 
+              <li><a class="text-muted" href="https://data.nasa.gov/login">Login</a></li> 
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>api.nasa.gov</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="https://api.nasa.gov/">Home</a></li> 
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>open.nasa.gov</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="https://open.nasa.gov">Home</a></li>
+              <li><a class="text-muted" href="https://open.nasa.gov/open-data/">Open Data</a></li>
+              <li><a class="text-muted" href="https://open.nasa.gov/explore/">Explore with us</a></li>
+              <li><a class="text-muted" href="https://open.nasa.gov/data-stories/">Data Stories</a></li>
+              <li><a class="text-muted" href="https://open.nasa.gov/innovation-space/">Innovation Space</a></li>
+              <li><a class="text-muted" href="https://open.nasa.gov/about/">About</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
     );
   }
 }
