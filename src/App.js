@@ -8,6 +8,8 @@ import Footer from './components/footer';
 import Home from './containers/home';
 import Asteroids from './containers/asteroids';
 import curiosity from './containers/curiosity';
+import NeoFeed from './containers/neofeed';
+import NeoBrowse from './containers/neobrowse';
 
 function App() {
 
@@ -29,7 +31,17 @@ function App() {
                 path="/asteroids"
                 exact
                 component={Asteroids}
-              /> 
+              />               
+              <Route
+                path="/neofeed"
+                exact
+                component={NeoFeed}
+              />
+              <Route
+                path="/neobrowse"
+                exact
+                component={NeoBrowse}
+              />              
               <Route
                 path="/curiosity"
                 exact

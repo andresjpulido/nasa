@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {getAPOD} from '../webservice';
 
 class Home extends Component {
 
@@ -7,23 +6,16 @@ class Home extends Component {
     super(props);  
 
     this.state = {
-      img: ""
+      img: "img/apod.jpg"
     };
     
-  }
-
-  async componentDidMount() {
-    const result = await getAPOD(); 
-    this.setState({
-      img: result.url
-    })  
   }
 
   render() {
     return (
       <div className="container shadow p-4 bg-white">
-        <h2>Image of the Day</h2>
-        <img src={this.state.img} alt=""/>
+        <h2>Neo - Browse</h2>
+        <img src={this.state.img} alt="x" />
       </div>
     )
   }
