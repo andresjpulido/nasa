@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+
+#neolinks a {
+    color: $secundary;
+    text-decoration: none;
+}
+
+#neolinks a:hover{    
+    text-decoration: underline;
+}
+
+#neolist {
+    margin: 1rem;
+}
+
+#neolist > div {
+    margin: 1rem;
+}
+
+#neolist > div > div:first-child{
+    font-weight: bold;
+}

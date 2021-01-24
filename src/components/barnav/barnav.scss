@@ -1,0 +1,30 @@
+@import "../../styles/variables.scss";
+
+.barnav {
+    background-color: $secundary;
+    color: $tertiary;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 1.5rem;
+} 
+
+
+.barnav a {
+    color: $tertiary;
+    text-decoration: none;
+}
+
+.barnav a:hover{    
+    text-decoration: underline;
+}
+
+.barnav ul {
+    list-style: none;    
+    margin: 0em;
+}
+
+.barnav li {
+    display: inline;
+    margin-left: 2em;
+
+}
