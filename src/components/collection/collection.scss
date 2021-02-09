@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+
+#collectionItems {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#collectionItems img {
+    display: -webkit-flex;
+    display: flex;
+    width: 20%;
+    object-fit: contain;
+    padding: .5rem;
+}
+
+#collectionItems video {
+    display: -webkit-flex;
+    display: flex;
+    width: 20%;
+    object-fit: contain;
+    padding: .5rem;
+}
+
+#collectionItems div.file {
+    display: -webkit-flex;
+    display: flex;
+    width: 20%;
+    object-fit: contain;
+    padding: .5rem;
+    text-align: center;
+}

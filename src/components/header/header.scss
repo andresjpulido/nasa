@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+
+header {
+    background-color: $primary;
+    color: $superlight;
+    ; 
+}
+
+header h1 {
+    font-family: Georgia,serif;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+
+header .subheading {
+    font-family: Georgia,serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    opacity: 0.75;
+    margin-left: 5rem;
+    margin-right: 5rem; 
+    padding-bottom: 1rem;
+    color: $superlight;
+}

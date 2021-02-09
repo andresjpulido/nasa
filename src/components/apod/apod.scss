@@ -1,0 +1,50 @@
+@import "../../styles/variables.scss";
+
+.nasa-photo {
+    display: flex;
+    padding: 40px;
+    margin: 0 auto;
+    max-height: 100%;
+    color: $superlight;
+  }
+  
+  .nasa-photo img {
+    width: 50%;
+    margin-right: 50px;
+    object-fit: contain;
+    max-height: 80vh;
+  }
+  
+  .nasa-photo .text > h1 {
+    color:white;
+    margin-top: 0;
+    margin-bottom: .3rem;
+    font-size: 2rem;
+  }
+  
+  .nasa-photo {
+    line-height : 1.5rem;
+  }
+
+  .nasa-photo .date {
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .nasa-photo .text {
+    background-color: $primary;
+    padding: 1rem;
+  }
+  
+  @media (max-width: 1280px) {
+    .nasa-photo {
+      display: block;
+    }
+  
+    .nasa-photo img {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 30px;
+    }
+  }

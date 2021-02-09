@@ -1,0 +1,76 @@
+@import "../../styles/variables.scss";
+
+#nimagelist {
+    margin-top: 2rem;
+}
+
+#nimagelist > h1 {    
+    color: $secundary;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#nimagelist > ul > li {    
+    border-radius: 0rem 0rem 0rem 0rem;
+    
+    margin-top: 1rem;
+    
+    
+}
+
+#nimagelist > ul > li > div:first-child{
+    cursor: pointer;
+}
+
+#nimagelist > img {    
+    width: 200px;
+}
+
+#nimagelist > ul > li > ul {    
+    background-color: $tertiary;
+    margin-left: 1.5rem;
+    padding: 1rem 1rem 1rem 2rem;
+    border-color: $secundary;
+    border-right-style: solid;
+
+    border-width: .5rem;
+}
+
+#nimagelist > ul > li > ul > div {  
+    margin-bottom: 1rem;
+}
+
+#outer-circle {
+    color: $superlight;
+    float: left;
+    background: $tertiary;;
+    border-radius: 50%;
+    height: 3rem;
+    width: 3rem;
+}
+
+#inner-circle {
+    position: relative;
+    background: $primary;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem;
+    text-align: center;
+}
+
+  #text {
+    background-color: $primary;
+    margin-left: 1.5rem;
+    padding: 1rem 1rem 1rem 2rem;
+    border-color: $secundary;
+    border-right-style: solid;
+    border-width: .5rem;
+    color: $superlight;
+  }
+
+  #inside-content{
+    padding-top: .5rem;
+  }

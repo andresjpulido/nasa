@@ -1,0 +1,11 @@
+@import "../../styles/variables.scss";
+
+#square {
+    float: left;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    shape-outside: circle();
+    clip-path: circle();
+    background: $primary;
+}
