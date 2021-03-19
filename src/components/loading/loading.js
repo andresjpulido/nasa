@@ -6,7 +6,7 @@ export default function IsLoading() {
 
     return (
         <div className="loading">
-            <img src={loading} />
+            <img src={loading} alt="loading"/>
         </div>
     )
 }

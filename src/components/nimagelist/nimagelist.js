@@ -22,7 +22,7 @@ export default class NImageList extends Component {
     }
  
     componentWillReceiveProps(props) {
-        const { data } = this.props;
+        //const { data } = this.props;
         this.setState({contacts:props.data})
       }
 
@@ -35,7 +35,9 @@ export default class NImageList extends Component {
         let imageList = [];
         let total_hits = 0;
 
-        if (this.state.contacts) {
+        total_hits = this.state.contacts.metadata.total_hits;
+        
+        if (this.state.contacts.lenght ===2) {
 
             imageList = this.state.contacts.items.map((item, id) =>
                 <li key={id}>

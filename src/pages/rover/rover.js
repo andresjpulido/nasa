@@ -4,6 +4,7 @@ import constants from '../../constants'
 import Error from '../../components/error'
 import RoverList from '../../components/roverList'
 import Loading from '../../components/loading'
+import './rover.scss';
 
 export default class rover extends Component {
 

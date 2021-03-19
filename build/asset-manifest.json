@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/nasa/static/css/main.67d911b1.chunk.css",
-    "main.js": "/nasa/static/js/main.1bba3d96.chunk.js",
-    "main.js.map": "/nasa/static/js/main.1bba3d96.chunk.js.map",
-    "runtime-main.js": "/nasa/static/js/runtime-main.d01f0b7d.js",
-    "runtime-main.js.map": "/nasa/static/js/runtime-main.d01f0b7d.js.map",
-    "static/js/2.2c5f68f0.chunk.js": "/nasa/static/js/2.2c5f68f0.chunk.js",
-    "static/js/2.2c5f68f0.chunk.js.map": "/nasa/static/js/2.2c5f68f0.chunk.js.map",
-    "static/js/3.d5ec3b87.chunk.js": "/nasa/static/js/3.d5ec3b87.chunk.js",
-    "static/js/3.d5ec3b87.chunk.js.map": "/nasa/static/js/3.d5ec3b87.chunk.js.map",
-    "index.html": "/nasa/index.html",
-    "static/css/main.67d911b1.chunk.css.map": "/nasa/static/css/main.67d911b1.chunk.css.map",
-    "static/js/2.2c5f68f0.chunk.js.LICENSE.txt": "/nasa/static/js/2.2c5f68f0.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/nasa/static/media/Oswald-VariableFont_wght.88fc6c5b.ttf",
-    "static/media/Staatliches-Regular.a7f803c1.ttf": "/nasa/static/media/Staatliches-Regular.a7f803c1.ttf",
-    "static/media/loading.09ea51fe.gif": "/nasa/static/media/loading.09ea51fe.gif"
+    "main.css": "/static/css/main.a7d33d2d.chunk.css",
+    "main.js": "/static/js/main.1bba3d96.chunk.js",
+    "main.js.map": "/static/js/main.1bba3d96.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2f49c590.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2f49c590.js.map",
+    "static/js/2.2c5f68f0.chunk.js": "/static/js/2.2c5f68f0.chunk.js",
+    "static/js/2.2c5f68f0.chunk.js.map": "/static/js/2.2c5f68f0.chunk.js.map",
+    "static/js/3.d5ec3b87.chunk.js": "/static/js/3.d5ec3b87.chunk.js",
+    "static/js/3.d5ec3b87.chunk.js.map": "/static/js/3.d5ec3b87.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a7d33d2d.chunk.css.map": "/static/css/main.a7d33d2d.chunk.css.map",
+    "static/js/2.2c5f68f0.chunk.js.LICENSE.txt": "/static/js/2.2c5f68f0.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/Oswald-VariableFont_wght.88fc6c5b.ttf",
+    "static/media/Staatliches-Regular.a7f803c1.ttf": "/static/media/Staatliches-Regular.a7f803c1.ttf",
+    "static/media/loading.09ea51fe.gif": "/static/media/loading.09ea51fe.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.d01f0b7d.js",
+    "static/js/runtime-main.2f49c590.js",
     "static/js/2.2c5f68f0.chunk.js",
-    "static/css/main.67d911b1.chunk.css",
+    "static/css/main.a7d33d2d.chunk.css",
     "static/js/main.1bba3d96.chunk.js"
   ]
 }

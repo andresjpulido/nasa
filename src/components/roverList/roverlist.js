@@ -11,7 +11,7 @@ export default function RoverList(props) {
 
                     <div key={image.id} className="item">
                         <div className="head">
-                            <a href={image.img_src} target="_blank">
+                            <a href={image.img_src} rel="noreferrer noopener" target="_blank" >
                                 <img src={image.img_src} alt={image.rover.name} />
                             </a>
                         </div>

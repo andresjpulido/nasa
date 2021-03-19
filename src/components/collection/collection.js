@@ -5,11 +5,14 @@ export default function Collection(props) {
  
     const [collection, setCollection] = useState(null);
  
+    const [url, setUrl] = useState(props.url);
+    setUrl(props.url)
+
     useEffect(() => {
         fetchCollection();
-
+        
         async function fetchCollection() {
-            const res = await fetch(props.url, {
+            const res = await fetch(url, {
                 
             }).catch((error) => {             
                 setCollection({error:{code:"net", message:"ERR_NAME_NOT_RESOLVED"}})});
@@ -20,7 +23,7 @@ export default function Collection(props) {
             }
         }
 
-    }, []);
+    }, [url]);
 
  
     if(!collection){

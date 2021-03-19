@@ -7,12 +7,16 @@ import constants from "../../constants"
 export default function Apod() {
 
     const [photoData, setPhotoData] = useState(null);
+    const api_key = process.env.REACT_APP_API_KEY
+    let url = constants.URL_APOD+api_key
+    url = "/data/apod.json"  
 
     useEffect(() => {
+
         fetchPhoto();
 
         async function fetchPhoto() {
-            const res = await fetch(constants.URL_APOD).catch((error) => {             
+            const res = await fetch(url).catch((error) => {             
                 setPhotoData({error:{code:"net", message:"ERR_NAME_NOT_RESOLVED"}})});
         
             if(res){
@@ -21,7 +25,7 @@ export default function Apod() {
             }
         }
 
-    }, []);
+    }, [url]);
  
 
     if (!photoData){ 
