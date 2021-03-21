@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.9fed066b.chunk.css",
-    "main.js": "/static/js/main.752a04df.chunk.js",
-    "main.js.map": "/static/js/main.752a04df.chunk.js.map",
+    "main.css": "/static/css/main.58a1b53e.chunk.css",
+    "main.js": "/static/js/main.96ba4836.chunk.js",
+    "main.js.map": "/static/js/main.96ba4836.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0bacce55.js",
     "runtime-main.js.map": "/static/js/runtime-main.0bacce55.js.map",
     "static/js/2.d65bf711.chunk.js": "/static/js/2.d65bf711.chunk.js",
@@ -10,16 +10,17 @@
     "static/js/3.79e5c1e6.chunk.js": "/static/js/3.79e5c1e6.chunk.js",
     "static/js/3.79e5c1e6.chunk.js.map": "/static/js/3.79e5c1e6.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9fed066b.chunk.css.map": "/static/css/main.9fed066b.chunk.css.map",
+    "static/css/main.58a1b53e.chunk.css.map": "/static/css/main.58a1b53e.chunk.css.map",
     "static/js/2.d65bf711.chunk.js.LICENSE.txt": "/static/js/2.d65bf711.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/static/media/Oswald-VariableFont_wght.88fc6c5b.ttf",
     "static/media/Staatliches-Regular.a7f803c1.ttf": "/static/media/Staatliches-Regular.a7f803c1.ttf",
-    "static/media/loading.09ea51fe.gif": "/static/media/loading.09ea51fe.gif"
+    "static/media/loading.09ea51fe.gif": "/static/media/loading.09ea51fe.gif",
+    "static/media/weather.scss": "/static/media/mars.5dec9d2c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0bacce55.js",
     "static/js/2.d65bf711.chunk.js",
-    "static/css/main.9fed066b.chunk.css",
-    "static/js/main.752a04df.chunk.js"
+    "static/css/main.58a1b53e.chunk.css",
+    "static/js/main.96ba4836.chunk.js"
   ]
 }
