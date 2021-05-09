@@ -21,7 +21,7 @@ export default function Weather() {
             });
 
             if (res) {
-                const data = await res.json();
+                const data = await res.json(); console.log(data)
                 setWeather(data);
             }
         }
@@ -41,19 +41,19 @@ export default function Weather() {
         );
     }
 
-    const solKeys = weather.sol_keys
+    const solKeys = weather.validity_checks.sols_checked
     // let solArr = solKeys.map((i)=> ( return solKeys[i]))
 
     let solArr = solKeys.reduce((ac, el) => {
-        let item = weather[el];
+        let item = weather.validity_checks[el];
         item["sol"] = el;
         ac.push(item)
         return ac
     }, [])
 
-let currentSol = solArr[solArr.length-1]
+    let currentSol = solArr[solArr.length - 1]
 
-console.log(currentSol)
+    console.log(currentSol)
 
     return (
         <article>
@@ -79,7 +79,7 @@ console.log(currentSol)
                                 <div>High: {currentSol.PRE.mx} Low: {currentSol.PRE.mn} </div>
                                 <div>{sol.PRE.Season}</div>
                                 <div>{sol.PRE.Southern_season}</div>
-                                <div>{sol.WD.most_common} </div>
+                                <div>{sol.WD?sol.WD.most_common:""} </div>
                             </div>
                         </li>
                     ))}

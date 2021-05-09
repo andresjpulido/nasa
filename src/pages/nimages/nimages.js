@@ -4,6 +4,7 @@ import Error from '../../components/error'
 import NImageList from '../../components/nimagelist'
 import Loading from '../../components/loading'
 import './nimages.scss'
+import Paginator from '../../components/paginator'
 
 export default class NImages extends Component {
 
@@ -107,7 +108,15 @@ export default class NImages extends Component {
                         ?
                         <NImageList data={this.state.contacts.collection} />
                         :
-                        <div>no hay resultados</div>
+                        <div></div>
+                }
+
+                {
+                    (this.state.contacts && this.state.contacts.collection)
+                        ?
+                        <Paginator currentPage={1} totalItems={100} itemsPerPage="10" />
+                        :
+                        <div></div>
                 }
 
             </article>

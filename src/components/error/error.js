@@ -1,13 +1,18 @@
 import React from 'react';
 import './error.scss'
 
-export default function Error(props){
+export default function Error(props) {
 
-    return (
-        <div className="error">
-            <div>Oops!</div>
-            <div>{props.code}</div>
-            <div>{props.message}</div>
-        </div>
-    )
+    const error = props.data
+
+    if (error)
+        return (
+            <div className="error">
+                <div>Oops!</div>
+                <div>{error.code}</div>
+                <div>{error.message}</div>
+            </div>
+        )
+    else
+        return (<div></div>)
 }

@@ -24,7 +24,7 @@ export default function Barnav() {
     return (
         <nav>
             <div className="menu-mobile">
-                <div className="menu-mobile-title"></div>
+                <div className="menu-mobile-title">Pocket's Astronomy</div>
                 <button className="menu-mobile-icon" onClick={updateIsMenuOpen}>
                     <img src={isMenuOpen ? icon_closed : icon} width="25px" alt="Menu" />
                 </button>
@@ -37,10 +37,6 @@ export default function Barnav() {
 
                 <li className={page === 'neofeed' ? "active-item" : ""} onClick={() => updatePage("neofeed")}>
                     <span>Neo feed</span>
-                </li>
-
-                <li className={page === 'curiosity' ? "active-item" : ""} onClick={() => updatePage("curiosity")}>
-                    <span>Curiosity</span>
                 </li>
 
                 <li className={page === 'nimages' ? "active-item" : ""} onClick={() => updatePage("nimages")}>

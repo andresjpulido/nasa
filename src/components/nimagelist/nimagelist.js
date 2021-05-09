@@ -37,9 +37,9 @@ export default class NImageList extends Component {
 
         total_hits = this.state.contacts.metadata.total_hits;
         
-        if (this.state.contacts.lenght ===2) {
+        
 
-            imageList = this.state.contacts.items.map((item, id) =>
+            imageList = this.state.contacts.items.slice(0, 15).map((item, id) =>
                 <li key={id}>
                     <div onClick={this.clickDiv(id)}>
                         <div id="outer-circle">
@@ -80,18 +80,13 @@ export default class NImageList extends Component {
 
             total_hits = this.state.contacts.metadata.total_hits;
 
-        } else {
-            console.log("no ok")
-            imageList = [];
-        }
-       
         return (
             <div id="nimagelist">
                 <h1>Collections</h1>
                 <ul>
                     {imageList}
                 </ul>
-                <div>Total {total_hits} records.</div>
+                <p>Total {total_hits} records.</p>
             </div>
         )
     }

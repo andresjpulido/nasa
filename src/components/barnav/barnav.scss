@@ -57,11 +57,12 @@ and (max-device-width : 767px) {
         width: 100%;
     }
 
-    .menu-mobile-title {        
-        color: $primary;
+    .menu-mobile-title {                
         display: inline-block;
         font-weight: bolder;
         margin: auto;
+        margin-left: 1rem;
+        font-size: 1.2rem;
     }
 
     .menu-mobile-icon {

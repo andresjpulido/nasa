@@ -91,7 +91,7 @@ export default function NeoList() {
     });
 
     return (
-        <Fragment>
+        <Fragment>            
             <ul id="neolinks">
                 <li key="1"><Link key="10" to="/" >Previous</Link></li>
                 <li key="2"><Link key="20" to="/" >self</Link></li>
@@ -101,4 +101,4 @@ export default function NeoList() {
             Total {neo.element_count} records.
         </Fragment>
     )
-}
+} 

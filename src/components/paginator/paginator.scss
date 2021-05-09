@@ -1,0 +1,22 @@
+@import "../../styles/variables.scss";
+
+.paginator {
+	color: $primary;
+	display: flex;
+	justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.paginator li {
+	border: 1px #ccc solid;
+	width: 100%;
+	text-align: center;
+	padding: 0.6rem;
+}
+
+.paginator li.selected {
+	background-color: $primary;
+	color: $tertiary;
+	border: 1px $primary solid;
+}

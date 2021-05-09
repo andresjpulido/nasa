@@ -1,4 +1,12 @@
-.loading img{
+@import "../../styles/variables.scss";
+
+.loading{
+    color: $secundary;
     margin: auto;
     width: 25%; 
+    text-align: center;
+}
+
+.loading div {
+    margin-top: 1rem;
 }

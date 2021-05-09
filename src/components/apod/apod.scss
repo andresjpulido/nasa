@@ -1,50 +1,59 @@
 @import "../../styles/variables.scss";
+.apod {
+	display: flex;
+	margin: 0 auto;
+	max-height: 100%;
+	color: $superlight;
+}
 
-.nasa-photo {
-    display: flex;
-    padding: 40px;
-    margin: 0 auto;
-    max-height: 100%;
-    color: $superlight;
-  }
-  
-  .nasa-photo img {
-    width: 50%;
-    margin-right: 50px;
-    object-fit: contain;
-    max-height: 80vh;
-  }
-  
-  .nasa-photo .text > h1 {
-    color:white;
-    margin-top: 0;
-    margin-bottom: .3rem;
-    font-size: 2rem;
-  }
-  
-  .nasa-photo {
-    line-height : 1.5rem;
-  }
+.apod img {
+	width: 50%;
+	margin-right: 50px;
+	object-fit: contain;
+	max-height: 80vh;
+	line-height: 1.5rem;
+}
 
-  .nasa-photo .date {
-    font-size: 1.5rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
-  
-  .nasa-photo .text {
-    background-color: $primary;
-    padding: 1rem;
-  }
-  
-  @media (max-width: 1280px) {
-    .nasa-photo {
-      display: block;
+.apod-title {
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0.3rem;
+	font-size: 2rem;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.apod-date {
+	color: $light;    
+	font-size: .8rem;
+    font-weight: bolder;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+}
+
+.apod-explanation{
+    color: $dark;
+}
+
+.apod-text {
+	background-color: $primary;
+	padding: 2rem;
+	border-radius: .5rem;	
+}
+
+@media (max-width: 1280px) {
+	.apod {
+		display: block;
+	}
+
+	.apod img {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+
+    .apod-text {
+        padding: 1rem;
     }
-  
-    .nasa-photo img {
-      width: 100%;
-      margin-right: 0;
-      margin-bottom: 30px;
-    }
-  }
+}

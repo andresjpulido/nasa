@@ -1,150 +1,145 @@
 @import "./styles/variables.scss";
 
 h2 {
-  border-bottom: 2px solid $light;
-  color: $primary;
-  font-size: 2.5rem; 
-  font-weight: 700;
-  margin-bottom: 2rem;
-  font-family: "Staatliches-Regular";
-  text-align: right;
-  }
- 
+	border-bottom: 2px solid $light;
+	color: $primary;
+	font-family: "Staatliches-Regular";
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+	padding-bottom: 1rem;
+	text-align: right;	
+}
+
+p {
+	line-height: 2rem;
+}
 
 .strong {
-  font-weight: bolder;
+	font-weight: bolder;
 }
-
 
 .app {
-  background-color: $tertiary;
-  margin-top: 0em;
-  padding-top: 2em;
-  margin-left: 5em;
-  margin-right: 5em;
-}
- 
-.form {  
-  padding: 1rem;
-  font-size: 1.3rem;
-  border-radius: .5rem;
+	background-color: $tertiary;
+	margin-top: 0em;
+	padding-top: 2em;
+	margin-left: 5em;
+	margin-right: 5em;
 }
 
-.form .row,
-.flex-inner {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+form {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 1.3rem;
+	border-radius: 0.5rem;
 }
 
-.form > .row > label,
-.form .row > div > label,
-.form .row p {
-  flex: 1 0 120px;
-  max-width: 220px;
-  color: $primary;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+form .row {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
 }
 
-.form > .row > label + *,
-.flex-inner {
-  flex: 1 0 220px;
+form > .row > label,
+form .row > div > label,
+form .row p {
+	flex: 1 0 120px;
+	max-width: 220px;
+	color: $primary;
+	padding-right: 1rem;
+	padding-bottom: 1rem;
 }
 
-.form .row:not(:last-child) {
-  margin-bottom: 1rem;
+form > .row > label + *{
+	flex: 1 0 220px;
 }
 
-.form .row input:not([type='checkbox']),
-.form .row select,
-.form .row textarea {
-  padding: 1rem;
-  border: .1rem solid $light;
-  background-color: $superlight;
-  font-size: 1.3rem;
-  color: $light;
+form .row:not(:last-child) {
+	margin-bottom: 1rem;
 }
 
-.form .row button {
-  margin-left: auto;
-  padding: .5rem 1rem;
-  border: none;
-  background: $superlight;
-  color: $primary;   
-  letter-spacing: .09em;
-  border-radius: .3rem;
-}
-
-.form .row button:hover {
-  cursor: pointer;
+form .row input:not([type="checkbox"]),
+form .row select,
+form .row textarea {
+	padding: 0.6rem;
+	border: 0.1rem solid $light;
+	background-color: $superlight;
+	font-size: 1.3rem;
+	color: $light;
 }
 
 
+
+form .row button {
+	margin-left: auto;
+	padding: 0.5rem 1rem;
+	border: none;
+	background: $primary;
+	color: $superlight;
+	letter-spacing: 0.09em;
+	border-radius: 0.3rem;
+}
+
+form .row button:hover {
+	cursor: pointer;
+}
+
+select, input[type="number"]{
+    width: 10rem;
+}
+
+button {
+	background: $primary;
+	color: $superlight;
+	letter-spacing: 0.09em;
+	border: none;
+	border-radius: 0.3rem;
+	margin-left: auto;
+	padding: 0.5rem 1rem;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-  h2 {
-    margin: auto;
-  }    
-  .app {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+	.app {
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+	form > .row > label {
+		flex: 1 1 100%;
+	}
+	 
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-     
+@media only screen and (min-width: 321px) {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-     
+@media only screen and (max-width: 320px) {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-     
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 }
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	/* Styles */
 }
 
 /* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-     
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-     
+@media only screen and (min-width: 1224px) {
 }
 
 /* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-     
+@media only screen and (min-width: 1824px) {
 }
 
 /* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-     
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {
 }

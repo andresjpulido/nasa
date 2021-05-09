@@ -1,149 +1,123 @@
 @import "../../styles/variables.scss";
 
 .mars {
-    background-image: url("../../assets/images/mars.jpg");
-    height: 40rem;
-    background-size: cover;
+	background-image: url("../../assets/images/mars.jpg");
+	height: 40rem;
+	background-size: cover;
 }
 
 .mars-h1 {
-    font-size: 3rem;
-    font-weight: bold;    
-    color: white;
+	font-size: 3rem;
+	font-weight: bold;
+	color: white;
 }
 
 .mars-h2 {
-    font-size: 2rem;
-    font-weight: bold;    
-    color: white;
-    margin-top: 2rem;
+	font-size: 2rem;
+	font-weight: bold;
+	color: white;
+	margin-top: 2rem;
 }
 
 .mars-p {
-    font-size: 1rem;
-    color: white;
-    margin-top: 1rem;
-    line-height: 1.5rem;
-    width: 50%;
+	font-size: 1rem;
+	color: white;
+	margin-top: 1rem;
+	line-height: 1.5rem;
+	width: 50%;
 }
 
 .mars-title {
-    padding-top: 10rem;
-    padding-left: 5rem;
+	padding-top: 10rem;
+	padding-left: 5rem;
 }
 
 .weather {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 3.5rem;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 3.5rem;
 }
 
 .weather-item {
-    color: $tertiary;
-    flex: 1 1 10rem;
-     
-    border: 1px $secundary solid;
-    background-color: $primary;
-    padding: 1rem;
-    opacity: .5;
-    margin: 1rem;
+	color: $tertiary;
+	flex: 1 1 10rem;
+
+	border: 1px $secundary solid;
+	background-color: $primary;
+	padding: 1rem;
+	opacity: 0.5;
+	margin: 1rem;
 }
 
-.features div{
-    display: block; 
+.features div {
+	display: block;
 }
-
-
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 767px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+	.mars-title {
+		padding-top: 4rem;
+		padding-left: 2rem;
+	}
 
-    .mars-title {
-        padding-top: 4rem;
-        padding-left: 2rem;
-    }
+	.mars-h1 {
+		font-size: 2.5 rem;
+	}
 
-    .mars-h1 {
-        font-size: 2.5 rem;    
-    }
-    
-    .mars-h2 {
-        font-size: 2rem;
-        margin-top: 2rem;
-    }
+	.mars-h2 {
+		font-size: 2rem;
+		margin-top: 2rem;
+	}
 
-    .mars-p {
-        font-size: 1rem;
-        margin-top: 2rem;
-        line-height: 1.5rem;
-        width: 90%;
-    }
+	.mars-p {
+		font-size: 1rem;
+		margin-top: 2rem;
+		line-height: 1.5rem;
+		width: 90%;
+	}
 
-    .weather-item {
-        color: $tertiary;
-        flex: 1 1 10rem;
-        border: 1px $secundary solid;
-        border-radius: .5rem;
-        background-color: $primary;
-        padding: 1rem;
-        margin: .5rem;
-        opacity: 1;
-    }
-
+	.weather-item {
+		color: $tertiary;
+		flex: 1 1 10rem;
+		border: 1px $secundary solid;
+		border-radius: 0.5rem;
+		background-color: $primary;
+		padding: 1rem;
+		margin: 0.5rem;
+		opacity: 1;
+	}
 }
 
 /* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-width : 321px) {
-     
+@media only screen and (min-width: 321px) {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-width : 320px) {
-     
+@media only screen and (max-width: 320px) {
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-     
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 }
 
 /* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	/* Styles */
 }
 
 /* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-     
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 }
 
 /* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-     
+@media only screen and (min-width: 1224px) {
 }
 
 /* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-     
+@media only screen and (min-width: 1824px) {
 }
 
 /* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-     
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+	only screen and (min-device-pixel-ratio: 1.5) {
 }

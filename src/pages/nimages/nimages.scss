@@ -1,4 +1,4 @@
-
+@import "../../styles/variables.scss";
 
 div.container {
 	display: flex;
@@ -9,18 +9,7 @@ div.container {
     border-radius: 4px;    
 }
 
-:root {
-	--omrs-color-ink-lowest-contrast: rgba(47, 60, 85, 0.18);
-	--omrs-color-ink-low-contrast: rgba(60, 60, 67, 0.3);
-	--omrs-color-ink-medium-contrast: rgba(19, 19, 21, 0.6);
-	--omrs-color-interaction: #1e4bd1;
-	--omrs-color-interaction-minus-two: rgba(73, 133, 224, 0.12);
-	--omrs-color-danger: #b50706;
-	--omrs-color-bg-low-contrast: #eff1f2;
-	--omrs-color-ink-high-contrast: #121212;
-	--omrs-color-bg-high-contrast: #ffffff;
-	
-}
+ 
 
 svg {
     width: 24px;
@@ -37,7 +26,7 @@ div.omrs-input-group {
   .omrs-input-underlined > input,
   .omrs-input-filled > input {
       border: none;
-      border-bottom: 0.125rem solid var(--omrs-color-ink-medium-contrast);
+      border-bottom: 0.125rem solid $primary;
       width: 100%;
       height: 2rem;
       font-size: 1.0625rem;
@@ -58,7 +47,7 @@ div.omrs-input-group {
       top: 0.9375rem;
       left: 0.875rem;
       line-height: 147.6%;
-      color: var(--omrs-color-ink-medium-contrast);
+      color: $primary;
       transition: top .2s;
   }
   
@@ -67,21 +56,21 @@ div.omrs-input-group {
       position: absolute;
       top: 0.9375rem;
       right: 0.875rem;
-      fill: var(--omrs-color-ink-medium-contrast);
+      fill: $primary;
   }
   
   .omrs-input-underlined > .omrs-input-helper,
   .omrs-input-filled > .omrs-input-helper {
       font-size: 0.9375rem;
-      color: var(--omrs-color-ink-medium-contrast);
+      color: $primary;
       letter-spacing: 0.0275rem;
       margin: 0.125rem 0.875rem;
   }
   
   .omrs-input-underlined > input:hover,
   .omrs-input-filled > input:hover {
-      background: var(--omrs-color-interaction-minus-two);
-      border-color: var(--omrs-color-ink-high-contrast);
+      background: $tertiary;
+      border-color: $primary;
   }
   
   .omrs-input-underlined > input:focus + .omrs-input-label,
@@ -95,33 +84,33 @@ div.omrs-input-group {
   
   .omrs-input-underlined:not(.omrs-input-danger) > input:focus + .omrs-input-label,
   .omrs-input-filled:not(.omrs-input-danger) > input:focus + .omrs-input-label {
-      color: var(--omrs-color-interaction);
+      color: $primary;
   }
   
   .omrs-input-underlined:not(.omrs-input-danger) > input:focus,
   .omrs-input-filled:not(.omrs-input-danger) > input:focus {
-      border-color: var(--omrs-color-interaction);
+      border-color: $primary;
   }
   
   .omrs-input-underlined:not(.omrs-input-danger) > input:focus ~ svg,
   .omrs-input-filled:not(.omrs-input-danger) > input:focus ~ svg {
-      fill: var(--omrs-color-ink-high-contrast);
+      fill: $primary;
   }
   
   /** DISABLED **/
   
   .omrs-input-underlined > input:disabled {
-      background: var(--omrs-color-bg-low-contrast);
+      background: $primary;
       cursor: not-allowed;
   }
   
   .omrs-input-underlined > input:disabled + .omrs-input-label,
   .omrs-input-underlined > input:disabled ~ .omrs-input-helper{
-      color: var(--omrs-color-ink-low-contrast);
+      color: $primary;
   }
   
   .omrs-input-underlined > input:disabled ~ svg {
-      fill: var(--omrs-color-ink-low-contrast);
+      fill: $primary;
   }
   
   
@@ -129,20 +118,20 @@ div.omrs-input-group {
   
   .omrs-input-underlined.omrs-input-danger > .omrs-input-label, .omrs-input-underlined.omrs-input-danger > .omrs-input-helper,
   .omrs-input-filled.omrs-input-danger > .omrs-input-label, .omrs-input-filled.omrs-input-danger > .omrs-input-helper{
-      color: var(--omrs-color-danger);
+      color: $primary;
   }
   
   .omrs-input-danger > svg {
-      fill: var(--omrs-color-danger);
+      fill: $primary;
   }
   
   .omrs-input-danger > input {
-      border-color: var(--omrs-color-danger);
+      border-color: $primary;
   }
   
   .omrs-input-underlined > input {
-      background: var(--omrs-color-bg-high-contrast);
+      background: $tertiary;
   }
   .omrs-input-filled > input {
-      background: var(--omrs-color-bg-low-contrast);
+      background: $primary;
   }
