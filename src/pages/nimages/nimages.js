@@ -37,8 +37,7 @@ export default class NImages extends Component {
 
             let url = constants.URL_NIMAGES + "/search?q=" + this.state.value
             //url =+ "&random=" + Math.random()
-            console.log(url)
-
+            
             fetch(url)
                 .then(res => res.json())
                 .then((data) => {
@@ -112,11 +111,11 @@ export default class NImages extends Component {
                 }
 
                 {
-                    (this.state.contacts && this.state.contacts.collection)
+                    /*(this.state.contacts && this.state.contacts.collection)
                         ?
                         <Paginator currentPage={1} totalItems={100} itemsPerPage="10" />
                         :
-                        <div></div>
+                        <div></div>*/
                 }
 
             </article>

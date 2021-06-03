@@ -15,7 +15,7 @@ export default function Asteroids() {
 
     const api_key = process.env.REACT_APP_API_KEY
     let url = constants.URL_NEO_FEED + api_key
-    url = "/data/neofeed.json"
+    //url = "/data/neofeed.json"
 
     const search = async (dataForm) => {
         setNeo(null);
@@ -58,8 +58,8 @@ export default function Asteroids() {
 
             <NeoList2 data={neo} />
 
-            { neo && 
-                <Paginator currentPage={1} totalItems={100} itemsPerPage="10" />
+            { /*neo && 
+                <Paginator currentPage={1} totalItems={100} itemsPerPage="10" />*/
             }
         </article >
     )

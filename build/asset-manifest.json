@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ffb5994c.chunk.css",
-    "main.js": "/static/js/main.95bdf2de.chunk.js",
-    "main.js.map": "/static/js/main.95bdf2de.chunk.js.map",
+    "main.css": "/static/css/main.504db78a.chunk.css",
+    "main.js": "/static/js/main.6965aaba.chunk.js",
+    "main.js.map": "/static/js/main.6965aaba.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.77371e8b.js",
     "runtime-main.js.map": "/static/js/runtime-main.77371e8b.js.map",
     "static/js/2.a9ec55dc.chunk.js": "/static/js/2.a9ec55dc.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2b5e438f.chunk.js": "/static/js/3.2b5e438f.chunk.js",
     "static/js/3.2b5e438f.chunk.js.map": "/static/js/3.2b5e438f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ffb5994c.chunk.css.map": "/static/css/main.ffb5994c.chunk.css.map",
+    "static/css/main.504db78a.chunk.css.map": "/static/css/main.504db78a.chunk.css.map",
     "static/js/2.a9ec55dc.chunk.js.LICENSE.txt": "/static/js/2.a9ec55dc.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/static/media/Oswald-VariableFont_wght.88fc6c5b.ttf",
     "static/media/Staatliches-Regular.a7f803c1.ttf": "/static/media/Staatliches-Regular.a7f803c1.ttf",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.77371e8b.js",
     "static/js/2.a9ec55dc.chunk.js",
-    "static/css/main.ffb5994c.chunk.css",
-    "static/js/main.95bdf2de.chunk.js"
+    "static/css/main.504db78a.chunk.css",
+    "static/js/main.6965aaba.chunk.js"
   ]
 }
