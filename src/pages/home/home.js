@@ -13,7 +13,7 @@ export default function Home() {
 
     const api_key = process.env.REACT_APP_API_KEY
     let url = constants.URL_APOD + api_key
-    url = "/data/apod.json"
+    //url = "/data/apod.json"
 
     useEffect(() => {
 

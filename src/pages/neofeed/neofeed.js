@@ -58,7 +58,7 @@ export default function Asteroids() {
 
             <NeoList2 data={neo} />
 
-            { neo &&
+            { neo && 
                 <Paginator currentPage={1} totalItems={100} itemsPerPage="10" />
             }
         </article >
