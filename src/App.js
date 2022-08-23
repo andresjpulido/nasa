@@ -8,6 +8,7 @@ import NImages from './pages/nimages'
 import Curiosity from './pages/curiosity'
 import Rover from './pages/rover'
 import Weather from './pages/weather'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route component={Home} />
         </Switch>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 }
